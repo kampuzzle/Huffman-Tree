@@ -20,3 +20,14 @@ binary number representing the character and everytime we access a left branch, 
 
 ---
 ### Compacta
+In this stage, the program will create a new file with a .comp termination. The content that will be written in the new file is the bits of the character's new binary value. This
+new value is a lot smaller than what it used to be so, when we calculate the size of the file, it will be smaller than the size of the original file. 
+
+To use the program in the compacting mode, you have to execute it typing "./Compacta name_of_the_file.termination" in the terminal.
+
+---
+### Descompacta
+To use the program in this mode, you have to execute it typing "./Descompacta name_of_the_file.comp" in the terminal. You can only descompact a file that was previously compacted.
+
+So in this stage, the program will recreate the original file by reading the compacted file and replacing the values of the characters with the old ones, in the ASCII table. So it
+will create another file, with the original termination, and decode the file received in the terminal.
